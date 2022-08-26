@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+     color: BLACK;
+     font-weight: bold;
+     text-decoration: none;
+ }
+.logout{
+    color: red;
+}
+.profile div{
+    margin: 10px;
+}
+.profile img{
+
+    align-items: center;
+    justify-content: left;
+    height: 200px;
+    width: 112px;
+
+
+
+}

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://static.turbosquid.com/Preview/001199/694/ZP/3D-gift-box-red_600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction:column;
+    width: 400px;
+    width: 250px;
+
+}
+p{
+    margin: 10px;
+}
+a{
+    color: BLACK;
+    font-weight: bold;
+    text-decoration: none;
+}
+input{
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button{
+    padding: 10px 0;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+.msg{
+    border: 2px solid orange;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.logout{
+    color: red;
+}
+.profile{
+    height: 100vh;
+    display: block;
+    font-family: "Javanese Text", sans-serif;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+label{
+    color:yellowgreen
+}

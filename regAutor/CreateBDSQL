@@ -1,0 +1,4 @@
+CREATE TABLE `dbgadget`.`users` ( `id` INT(11) NOT NULL AUTO_INCREMENT ,
+`full_name` VARCHAR(355) NULL , `login` VARCHAR(200) NULL , `email` VARCHAR(100) NULL ,
+ `password` VARCHAR(500) NULL ,
+`avatar` VARCHAR(500) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
